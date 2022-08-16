@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors none">
+    <title>First National Collections Bureau - Home</title>
+    <link rel="icon" type="image/icon" href="/images/fncb.ico">
+    <meta name="description" content="First National Collections Bureau is a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years." />
+    <link rel="stylesheet" href="/css/app.css?v=1">
+</head>
+<body>
+    <!-- payment server link = 'https://webXXXpaybill.com:8443/webpay-fncb/FNCB/login/'-->
+    <!-- payment server down link = '/serXXXver-maintenance.html' -->
+    <div class="top-bar"  data-include="topbar"></div>
+    <header  data-include="header"></header>
+    <div class="mobile-nav " id="mobileNav" data-include="mobileNav"></div>
+
+    <div class="hero">
+        <div class="container">
+            <div class="row gx-0">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="message-first">
+                        <h2>Don’t let your past<br>define your future.</h2>
+                        <p>We are a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years.</p>
+                    </div>
+                    <div class="message-second">
+                        <h3>First National Collection Bureau, Inc. aka FNCBNV</h3>
+                        <p> Our success depends on you. Compassionate recovery services provided with the highest level of compliance and data security.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 hero-image" title="First National Collections Bureau, Inc. FNCBNV"></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    </div>
+
+    <div class="footer" data-include="footer"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function toggler(divId) {
+            $("#" + divId).toggle();
+        }
+        $(function () {
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+            var file = 'views/' + $(this).data('include') + '.html'
+            $(this).load(file)
+        })
+})
+    </script>
+</body>
+</html>

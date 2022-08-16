@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors none">
+    <title>First National Collections Bureau - Contact Us</title>
+    <link rel="icon" type="image/icon" href="/images/fncb.ico">
+    <meta name="description" content="First National Collections Bureau is a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years." />
+    <link rel="stylesheet" href="/css/app.css?v=9">
+    
+</head>
+<body>
+    <div class="top-bar"  data-include="topbar"></div>
+    <header  data-include="header"></header>
+    <div class="mobile-nav " id="mobileNav" data-include="mobileNav"></div>
+
+
+    <div class="container">
+            <div class='row'>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <div class='section-two'>
+                    <br><br>
+                    <p>
+                        <b>First National Collection Bureau, Inc.</b>
+                    </p><p>
+                        <b>Phone: </b><a href="tel:800-824-6191">(800) 824-6191</a>
+                    </p><p>
+                        <b>Hours of Operation:</b><br>
+                        Monday through Friday<br>
+                        6:00 am to 5:00 pm PST (hours may vary)<br>
+                </p><p>
+                    <b>Address:</b><br>
+                    50 West Liberty Street<br>Suite 250<br>
+                    Reno, NV 89501
+                </p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8" title="First National Collections Bureau, Inc. FNCBNV">
+            <iframe   style="width:100%; height:450px; border:1px solid #24346c; border-radius:12px;" allowfullscreen="" loading="lazy"  src="https://www.google.com/maps/embed/v1/place?q=50+West+Liberty+Street+Suite+250+Reno,+NV+89501&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+        </div>
+
+        
+        
+        </div>
+    </div>    
+
+    <div class="footer" data-include="footer"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function toggler(divId) {
+            $("#" + divId).toggle();
+        }
+        $(function () {
+            var includes = $('[data-include]')
+            $.each(includes, function () {
+            var file = 'views/' + $(this).data('include') + '.html'
+            $(this).load(file)
+        })
+})
+    </script>
+</body>
+</html>
