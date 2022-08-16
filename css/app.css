@@ -11809,9 +11809,10 @@ i.icon {
 }
 
 i.icon.menu {
-  width: 18px;
-  height: 14px;
-  background: url("/images/icons/mobile-nav.svg");
+  color:navy;
+  width: 16px;
+  height: 16px;
+  background: url("/images/menu2.png") 100%;
 }
 
 i.icon.speech {
