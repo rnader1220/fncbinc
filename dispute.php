@@ -49,7 +49,7 @@ if($_POST) {
         $message.= "Please Add Required Fields";
         $success = false;
     } else {
-        $to = "rnader@dyn-it.com"; // this is your Email address
+        $to = "correspondence@fncbinc.com"; // this is your Email address
         $from = $_POST['email']; // this is the sender's Email address
         $first_name = $_POST['fname'];
         $last_name = $_POST['lname'];

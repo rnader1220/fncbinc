@@ -46,7 +46,7 @@ if($_POST) {
         $message.= "Please Add Required Fields";
         $success = false;
     } else {
-        $to = "rnader@dyn-it.com"; // this is your Email address
+        $to = "correspondence@fncbinc.com"; // this is your Email address
         $from = $_POST['email']; // this is the sender's Email address
         $first_name = $_POST['fname'];
         $last_name = $_POST['lname'];
@@ -72,7 +72,7 @@ if($_POST) {
         $success = true;
     }
 } else {
-    $message = "If you would like to submit a complaint on the debt the debt that we have contacted you about, ". 
+    $message = "If you would like to submit a complaint on the debt that we have contacted you about, ". 
     "please call us toll free at <a href='tel:800-824-6191'>(800) 824-6191</a> or submit the following information. " . 
     "All information provided serves as express written consent to contact you in order to resolve this matter." . 
     "<br><br>By submitting the form below, you certify that you are being truthful and that all information provided is accurate.";
