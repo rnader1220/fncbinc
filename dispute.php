@@ -59,6 +59,10 @@ if($_POST) {
         $message.= "Dispute Reason Required<br/>";
         $valid=false;
     }
+    if(!isset($_POST['lastfour']) && !isset($_POST['dateofbirth'])) {
+        $message.= "Either Last Four of SSN or Date of Birth required<br/>";
+        $valid=false;
+    }
 
     if(!$valid) {
         $message.= "Please Add Required Fields";
@@ -81,6 +85,8 @@ if($_POST) {
         "Phone Number: {$_POST['phone']} \n".
         "Email Address: {$_POST['email']} \n".
         "Reference Number: {$_POST['refnumber']} \n".
+        (isset($_POST['lastfour'])?"Last Four of SSN: {$_POST['lastfour']} \n":"") .
+        (isset($_POST['dateofbirth'])?"Date Of Birth: {$_POST['dateofbirth']}  \n":"") .
         "Dispute Reason: {$_POST['reason']} \n\n".
         (isset($_POST['detail'])?
         "Message Details:\n{$_POST['detail']}":"") . "\n\n";
@@ -279,6 +285,40 @@ if($_POST) {
                                 <input class="form-control" type="text" id="refnumber" name="refnumber"
                                     <?php if(isset($_POST['refnumber'])) {echo "value='{$_POST['refnumber']}'";} ?>
                                 >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="offset-lg-1 col-lg-10 justify-content-center" style='color:#002854;'>
+                    <strong><em><span style='font-size:1.25em;'>
+                        To be considered, please include one of the following:
+                    </span></em></strong>
+                    </div>
+                </div>
+                <div class="row border rounded" >
+                <div class="offset-lg-1 col-lg-4" id="lastfour_div">
+                        <div class="form-group">
+                            <label for="lastfour" class="control-label">Last Four Digits of SSN</label>
+                            <div class="input-group">
+                                <input class="form-control" type="text" id="lastfour" name="lastfour"
+                                    <?php if(isset($_POST['lastfour'])) {echo "value='{$_POST['lastfour']}'";} ?>
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 justify-content-center">
+                    <strong><em>
+                        <span style='font-size:1.25em; color:#002854'>-- OR --</span>
+                    </em></strong>
+                    </div>
+                    <div class="col-lg-4" id="dateofbirth_div">
+                        <div class="form-group">
+                            <label for="dateofbirth" class="control-label">Date Of Birth</label>
+                            <div class="input-group">
+                                <input class="form-control" type="date" id="dateofbirth" name="dateofbirth"
+                                    <?php if(isset($_POST['dateofbirth'])) {echo "value='{$_POST['dateofbirth']}'";} ?>
+                                    >
                             </div>
                         </div>
                     </div>
