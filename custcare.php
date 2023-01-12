@@ -55,8 +55,8 @@ if($_POST) {
         $message.= "Reference Number Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['reason'])) {
-        $message.= "Dispute Reason Required<br/>";
+    if(!isset($_POST['topic'])) {
+        $message.= "Customer Care Topic Required<br/>";
         $valid=false;
     }
     if(!isset($_POST['lastfour']) && !isset($_POST['dateofbirth'])) {
@@ -74,8 +74,8 @@ if($_POST) {
         $from = $_POST['email']; // this is the sender's Email address
         $first_name = $_POST['fname'];
         $last_name = $_POST['lname'];
-        $subject = "Dispute Form submission";
-        $textmessage = "Dispute Form Data: \n\n" .
+        $subject = "Customer Care Form submission";
+        $textmessage = "Customer Care Form Data: \n\n" .
         "First Name: {$_POST['fname']} \n".
         "Last Name: {$_POST['lname']} \n\n".
         "Address: \n" . 
@@ -87,7 +87,7 @@ if($_POST) {
         "Reference Number: {$_POST['refnumber']} \n".
         (isset($_POST['lastfour'])?"Last Four of SSN: {$_POST['lastfour']} \n":"") .
         (isset($_POST['dateofbirth'])?"Date Of Birth: {$_POST['dateofbirth']}  \n":"") .
-        "Dispute Reason: {$_POST['reason']} \n\n".
+        "Contact topic: {$_POST['topic']} \n\n".
         (isset($_POST['detail'])?
         "Message Details:\n{$_POST['detail']}":"") . "\n\n";
     
@@ -119,16 +119,13 @@ if($_POST) {
 
         
 
-        $message .= "Your Dispute has been Received<br/>";
+        $message .= "Your Reqhest has been Received<br/>";
         $success = true;
         session_destroy();
     }
 } else {
-    $message = "If you would like to dispute the debt that we have contacted you about, ". 
-    "please call us toll free at <a href='tel:800-824-6191'>(800) 824-6191</a> or submit the following information. " . 
-    "All information provided serves as express written consent to contact you in order to resolve this matter." . 
-    "<br><br>Attach any supporting documents below the form BEFORE submitting dispute form.".
-
+    $message = "Please call us toll free at <a href='tel:800-824-6191'>(800) 824-6191</a> or submit the following information. " . 
+    "All information provided serves as express written consent to contact you in order to resolve this matter.".
     "<br><br>By submitting the form below, you certify that you are being truthful and that all information provided is accurate.";
 }
 
@@ -144,7 +141,7 @@ if($_POST) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Security-Policy" content="frame-ancestors none">
-    <title>First National Collections Bureau - Dispute Form</title>
+    <title>First National Collections Bureau - Customer Care Form</title>
     <link rel="icon" type="image/icon" href="/images/fncb.ico">
     <meta name="description"
         content="First National Collections Bureau is a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years." />
@@ -169,7 +166,7 @@ if($_POST) {
 
     <div class="container">
     <div class='section-one'>
-    <center><h2>Dispute Contact Form</h2></center>
+    <center><h2>Message Contact Form</h2></center>
     <br><br>    
     <?=$message ?>
 
@@ -325,24 +322,22 @@ if($_POST) {
                 </div>
                 <div class="row">
 
-                    <div class="col-lg-12" id="reason_div">
+                    <div class="col-lg-12" id="topic_div">
                         <div class="form-group">
-                            <label for="reason" class="control-label">Dispute Reason</label>
-                            <select class="form-control" name="reason" id="sel_reason">
+                            <label for="topic" class="control-label">Customer Care Message Topic</label>
+                            <select class="form-control" name="topic" id="sel_topic">
                                 <option selected disabled value=''>-- select one --</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Fraud') echo 'checked';} ?> value="Fraud">Fraud</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Verification of Debt') echo 'checked';} ?> value="Verification of Debt">Verification of Debt</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Dispute Balance') echo 'checked';} ?> value="Dispute Balance">Dispute Balance</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Paid Prior') echo 'checked';} ?> value="Paid Prior">Paid Prior</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Returned Merchandise') echo 'checked';} ?> value="Returned Merchandise">Returned Merchandise</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Substantiation of Debt') echo 'checked';} ?> value="Substantiation of Debt">Substantiation of Debt (New York Only)</option>
+                                <option <?php if(isset($_POST['topic'])) { if($_POST['topic'] == 'Payment Schedule Change') echo 'checked';} ?> value="Payment Schedule Change">I have a payment plan scheduled and need to make a change to the date, amount, or payment method.</option>
+                                <option <?php if(isset($_POST['topic'])) { if($_POST['topic'] == 'Payment Options Request') echo 'checked';} ?> value="Payment Options Request">I want to see what my payment options are.</option>
+                                <option <?php if(isset($_POST['topic'])) { if($_POST['topic'] == 'Portal Access Issue') echo 'checked';} ?> value="Portal Access Issue">I can’t see this account on the portal.</option>
+                                <option <?php if(isset($_POST['topic'])) { if($_POST['topic'] == 'Contact Request') echo 'checked';} ?> value="Contact Request"> I want someone to call me to discuss this account.</option>
                             </select>
                         </div>
                     </div>
 
                     <div class="col-lg-12" id="detail_div">
                         <div class="form-group">
-                            <label for="detail" class="control-label">Description of Dispute</label>
+                            <label for="detail" class="control-label">Message Detail</label>
                             <textarea class="form-control" id="detail" name="detail"><?php if(isset($_POST['detail'])) {echo "{$_POST['detail']}";} ?></textarea>
                         </div>
                     </div>
