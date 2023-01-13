@@ -350,16 +350,6 @@ if($_POST) {
                 </div>
             </form>
                 </div>
-            <div class = 'col-lg-12'>
-            <span class="file-name">Upload files before submitting form!</span>
-            <form id='doc_uploader' enctype="multipart/form-data">
-                <div class="upload-wrapper">
-                <label for="file-upload">Browse</label>
-        
-                <input type="file" id="upload_document" name="uploadedFile">
-                </div>
-            </form>
-            </div>
         </div>
     </div>
     <script>
