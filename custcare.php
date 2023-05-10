@@ -176,11 +176,11 @@ if($_POST) {
 <?php } else { ?>
         <div class='section-two'>
             <div class = 'row'>
-                <div class = 'col-lg-12'>
+                <div class = 'col-12'>
             <form method='POST'>
                 <div class="row">
 
-                    <div class="col-lg-6" id="fname_div">
+                    <div class="col-6" id="fname_div">
                         <div class="form-group">
                             <label for="fname" class="control-label">First Name</label>
                             <div class="input-group">
@@ -191,7 +191,7 @@ if($_POST) {
                         </div>
                     </div>
 
-                    <div class="col-lg-6" id="lname_div">
+                    <div class="col-6" id="lname_div">
                         <div class="form-group">
                             <label for="lname" class="control-label">Last Name</label>
                             <div class="input-group">
@@ -203,7 +203,7 @@ if($_POST) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12" id="addr1_div">
+                    <div class="col-12" id="addr1_div">
                         <div class="form-group">
                             <label for="addr1" class="control-label">Address</label>
                             <div class="input-group">
@@ -213,7 +213,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12" id="addr2_div">
+                    <div class="col-12" id="addr2_div">
                         <div class="form-group">
                             <div class="input-group">
                                 <input class="form-control" type="text" id="addr2" name="addr2"
@@ -222,7 +222,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6" id="city_div">
+                    <div class="col-6" id="city_div">
                         <div class="form-group">
                             <label for="city" class="control-label">City</label>
                             <div class="input-group">
@@ -232,7 +232,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2" id="state_div">
+                    <div class="col-2" id="state_div">
                         <div class="form-group">
                             <label for="state" class="control-label">ST</label>
                             <div class="input-group">
@@ -242,7 +242,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" id="zipcode_div">
+                    <div class="col-4" id="zipcode_div">
                         <div class="form-group">
                             <label for="zipcode" class="control-label">Zip Code</label>
                             <div class="input-group">
@@ -254,7 +254,7 @@ if($_POST) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4" id="phone_div">
+                    <div class="col-4" id="phone_div">
                         <div class="form-group">
                             <label for="phone" class="control-label">Phone Number</label>
                             <div class="input-group">
@@ -264,7 +264,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" id="email_div">
+                    <div class="col-4" id="email_div">
                         <div class="form-group">
                             <label for="email" class="control-label">Email Address</label>
                             <div class="input-group">
@@ -275,7 +275,7 @@ if($_POST) {
                         </div>
                     </div>
 
-                    <div class="col-lg-4" id="refnumber_div">
+                    <div class="col-4" id="refnumber_div">
                         <div class="form-group">
                             <label for="refnumber" class="control-label">Reference Number</label>
                             <div class="input-group">
@@ -287,14 +287,14 @@ if($_POST) {
                     </div>
                 </div>
                 <div class="row">
-                <div class="offset-lg-1 col-lg-10 justify-content-center" style='color:#002854;'>
+                <div class="offset-1 col-10 justify-content-center" style='color:#002854;'>
                     <strong><em><span style='font-size:1.25em;'>
                         To be considered, please include one of the following:
                     </span></em></strong>
                     </div>
                 </div>
                 <div class="row border rounded" >
-                <div class="offset-lg-1 col-lg-4" id="lastfour_div">
+                <div class="offset-1 col-4" id="lastfour_div">
                         <div class="form-group">
                             <label for="lastfour" class="control-label">Last Four Digits of SSN</label>
                             <div class="input-group">
@@ -304,12 +304,12 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 justify-content-center">
+                    <div class="col-2 justify-content-center">
                     <strong><em>
                         <span style='font-size:1.25em; color:#002854'>-- OR --</span>
                     </em></strong>
                     </div>
-                    <div class="col-lg-4" id="dateofbirth_div">
+                    <div class="col-4" id="dateofbirth_div">
                         <div class="form-group">
                             <label for="dateofbirth" class="control-label">Date Of Birth</label>
                             <div class="input-group">
@@ -322,7 +322,7 @@ if($_POST) {
                 </div>
                 <div class="row">
 
-                    <div class="col-lg-12" id="topic_div">
+                    <div class="col-12" id="topic_div">
                         <div class="form-group">
                             <label for="topic" class="control-label">Customer Care Message Topic</label>
                             <select class="form-control" name="topic" id="sel_topic">
@@ -335,15 +335,22 @@ if($_POST) {
                         </div>
                     </div>
 
-                    <div class="col-lg-12" id="detail_div">
+                    <div class="col-12" id="detail_div">
                         <div class="form-group">
                             <label for="detail" class="control-label">Message Detail</label>
                             <textarea class="form-control" id="detail" name="detail"><?php if(isset($_POST['detail'])) {echo "{$_POST['detail']}";} ?></textarea>
                         </div>
                     </div>
                 </div>
+                
                 <div class="row">
-                    <div class="col-lg-12 pt-3" id="submit_div">
+                    <div class="offset-2 col-8 pt-3">
+                    <p>By providing your phone number, you consent to receive text messages from us at the number provided. Consent to receive marketing text messages is not required as a condition of purchasing any goods or services. Consent for friendly bill reminder notifications may be sent. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe at any time.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 pt-3" id="submit_div">
                     <button type="submit" class="btn btn-primary float-end">Submit</button>
 
                     </div>

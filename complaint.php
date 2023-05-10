@@ -113,7 +113,7 @@ if($_POST) {
             <form method='POST'>
                 <div class="row">
 
-                    <div class="col-lg-6" id="fname_div">
+                    <div class="col-6" id="fname_div">
                         <div class="form-group">
                             <label for="fname" class="control-label">First Name</label>
                             <div class="input-group">
@@ -124,7 +124,7 @@ if($_POST) {
                         </div>
                     </div>
 
-                    <div class="col-lg-6" id="lname_div">
+                    <div class="col-6" id="lname_div">
                         <div class="form-group">
                             <label for="lname" class="control-label">Last Name</label>
                             <div class="input-group">
@@ -136,7 +136,7 @@ if($_POST) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12" id="addr1_div">
+                    <div class="col-12" id="addr1_div">
                         <div class="form-group">
                             <label for="addr1" class="control-label">Address</label>
                             <div class="input-group">
@@ -146,7 +146,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12" id="addr2_div">
+                    <div class="col-12" id="addr2_div">
                         <div class="form-group">
                             <div class="input-group">
                                 <input class="form-control" type="text" id="addr2" name="addr2"
@@ -155,7 +155,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6" id="city_div">
+                    <div class="col-6" id="city_div">
                         <div class="form-group">
                             <label for="city" class="control-label">City</label>
                             <div class="input-group">
@@ -165,7 +165,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2" id="state_div">
+                    <div class="col-2" id="state_div">
                         <div class="form-group">
                             <label for="state" class="control-label">ST</label>
                             <div class="input-group">
@@ -175,7 +175,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" id="zipcode_div">
+                    <div class="col-4" id="zipcode_div">
                         <div class="form-group">
                             <label for="zipcode" class="control-label">Zip Code</label>
                             <div class="input-group">
@@ -187,7 +187,7 @@ if($_POST) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4" id="phone_div">
+                    <div class="col-4" id="phone_div">
                         <div class="form-group">
                             <label for="phone" class="control-label">Phone Number</label>
                             <div class="input-group">
@@ -197,7 +197,7 @@ if($_POST) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" id="email_div">
+                    <div class="col-4" id="email_div">
                         <div class="form-group">
                             <label for="email" class="control-label">Email Address</label>
                             <div class="input-group">
@@ -208,7 +208,7 @@ if($_POST) {
                         </div>
                     </div>
 
-                    <div class="col-lg-4" id="refnumber_div">
+                    <div class="col-4" id="refnumber_div">
                         <div class="form-group">
                             <label for="refnumber" class="control-label">Reference Number</label>
                             <div class="input-group">
@@ -220,16 +220,23 @@ if($_POST) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12" id="detail_div">
+                    <div class="col-12" id="detail_div">
                         <div class="form-group">
                             <label for="detail" class="control-label">Description of Complaint</label>
                             <textarea class="form-control" id="detail" name="detail"><?php if($_POST['detail']) {echo "{$_POST['detail']}";} ?></textarea>
                         </div>
                      </div>
                 </div>
+                
+                <div class="row">
+                    <div class="offset-2 col-8 pt-3">
+                    <p>By providing your phone number, you consent to receive text messages from us at the number provided. Consent to receive marketing text messages is not required as a condition of purchasing any goods or services. Consent for friendly bill reminder notifications may be sent. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe at any time.</p>
+                    </div>
+                </div>
+
                 <div class="row">
 
-                    <div class="col-lg-12 pt-3" id="submit_div">
+                    <div class="col-12 pt-3" id="submit_div">
                     <button type="submit" class="btn btn-primary float-end">Submit</button>
 
                     </div>
