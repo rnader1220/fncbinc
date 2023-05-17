@@ -7,14 +7,14 @@
     <title>First National Collections Bureau - Home</title>
     <link rel="icon" type="image/icon" href="/images/fncb.ico">
     <meta name="description" content="First National Collections Bureau is a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years." />
-    <link rel="stylesheet" href="/css/app.css?v=1">
+
+    <?php include 'views/styles.php' ?> 
+
 </head>
 <body>
-    <!-- payment server link = 'https://webXXXpaybill.com:8443/webpay-fncb/FNCB/login/'-->
-    <!-- payment server down link = '/serXXXver-maintenance.html' -->
-    <div class="top-bar"  data-include="topbar"></div>
-    <header  data-include="header"></header>
-    <div class="mobile-nav " id="mobileNav" data-include="mobileNav"></div>
+    <?php include 'views/topbar.php' ?> 
+    <?php include 'views/header.php' ?> 
+    <?php include 'views/mobileNav.php' ?> 
 
     <div class="hero">
         <div class="container">
@@ -37,7 +37,8 @@
     <div class="container">
     </div>
 
-    <div class="footer" data-include="footer"></div>
+
+    <?php include 'views/footer.php' ?> 
 
 <div id='phonelist'>
 201-409-2863 201-483-0360 201-578-2385 201-578-3264 201-613-7678 202-852-1548 202-852-1570 203-793-4255 203-793-4498 203-902-2142
@@ -196,19 +197,6 @@
 443-438-1210 573-271-2240 703-740-9661 718-964-9768 786-206-9935 786-693-2372 817-886-4310 916-265-2007 954-237-7651
 </div> 
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        function toggler(divId) {
-            $("#" + divId).toggle();
-        }
-        $(function () {
-            var includes = $('[data-include]')
-            $.each(includes, function () {
-            var file = 'views/' + $(this).data('include') + '.html'
-            $(this).load(file)
-        })
-})
-    </script>
 </body>
+<?php include 'views/scripts.php' ?> 
 </html>

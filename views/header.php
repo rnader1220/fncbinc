@@ -1,5 +1,8 @@
-
-
+<?php
+    $server_link = 'https://payfncb.cssimpact.com:8443/pay/FNCB/login';
+    //$server_link =  '/server-maintenance.php';
+?>
+<header>
 <div class="container">
     <div class="row">
         <div class="col-4 col-sm-2 col-md-2 col-lg-2 desktop">
@@ -9,29 +12,31 @@
         <div class="col-4 col-sm-10 col-md-10 col-lg-10 desktop ">
             <ul>
                 <li><a href="/">Home</a></li>
-                <!-- li><a href="/remove-number.html">Remove Number</a></li -->
-                <li><a href="/contact.html">Contact</a></li>
+                <!-- li><a href="/remove-number.php">Remove Number</a></li -->
+                <li><a href="/contact.php">Contact</a></li>
 
                 <li><a href="/dispute.php">Dispute</a></li>
                 <li><a href="/custcare.php">Customer Care</a></li>
                 <li><a href="/complaint.php">Complaint</a></li>
-                <li><a href="/resources.html">Resources</a></li>
+                <li><a href="/resources.php">Resources</a></li>
+
 
                 <!-- need to point to actual login portal-->
-                <li><a target='_blank' href="https://payfncb.cssimpact.com:8443/pay/FNCB/login">Review Your Account</a></li>
+                <li><a target='_blank' href="<?=$server_link ?>">Review Your Account</a></li>
 
                 <!-- need to point to actual login portal-->
-                <li><a target='_blank' href="https://payfncb.cssimpact.com:8443/pay/FNCB/login"
+                <li><a target='_blank' href="<?=$server_link ?>"
                         class="button normal">Make Payment</a></li>
             </ul>
         </div>
         <div class="col-8 col-sm-10 col-md-10 col-lg-10 mobile ">
             <ul>
                 <!-- need to point to actual login portal-->
-                <li><a target='_blank' href="https://payfncb.cssimpact.com:8443/pay/FNCB/login"
+                <li><a target='_blank' href="<?=$server_link ?>"
                         class="button normal">Make Payment</a></li>
                 <li><a href="#" class="mobile-menu" onclick="toggler('mobileNav');"><i class="icon menu"></i></a></li>
             </ul>
         </div>
     </div>
 </div>
+</header>

@@ -7,13 +7,14 @@
     <title>First National Collections Bureau - Terms of Use</title>
     <link rel="icon" type="image/icon" href="/images/fncb.ico">
     <meta name="description" content="First National Collections Bureau is a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years." />
-    <link rel="stylesheet" href="/css/app.css?v=9">
+
+    <?php include 'views/styles.php' ?>
     
 </head>
 <body>
-    <div class="top-bar"  data-include="topbar"></div>
-    <header  data-include="header"></header>
-    <div class="mobile-nav " id="mobileNav" data-include="mobileNav"></div>
+    <?php include 'views/topbar.php' ?>
+    <?php include 'views/header.php' ?>
+    <?php include 'views/mobileNav.php' ?>
 
     <div class="container">
         <div class='section-one'>
@@ -127,21 +128,8 @@
         </p>
         </div>
     </div>    
-
-    <div class="footer" data-include="footer"></div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        function toggler(divId) {
-            $("#" + divId).toggle();
-        }
-        $(function () {
-            var includes = $('[data-include]')
-            $.each(includes, function () {
-            var file = 'views/' + $(this).data('include') + '.html'
-            $(this).load(file)
-        })
-})
-    </script>
+    <?php include 'views/footer.php' ?>
 </body>
+<?php include 'views/scripts.php' ?>
+
 </html>
