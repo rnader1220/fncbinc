@@ -4,18 +4,18 @@
             <div class="col-lg-12">
                 <div class="company-logos ">
                     <div class="row gx-0">
-                        <div class="col-3 col-sm-3 col-md3 col-lg-3 d-flex">
+                        <div class="col-3">
                             <!-- div class="company d-flex align-items-center"><a href="#" class="bbb">BBB Acredited Business</a></div -->
                         </div>
-                        <div class="col-3 col-sm-3 col-md3 col-lg-3">
+                        <div class="col-3">
                             <div class="company d-flex align-items-center"><a href="#" class="aca">ACA International</a>
                             </div>
                         </div>
-                        <div class="col-3 col-sm-3 col-md3 col-lg-3">
+                        <div class="col-3">
                             <div class="company d-flex align-items-center"><a target='_blank'
                                     href="https://rmaintl.org/consumers/" class="rmai">RMAi Member</a></div>
                         </div>
-                        <div class="col-3 col-sm-3 col-md3 col-lg-3">
+                        <div class="col-3">
                             <!-- div class="company d-flex align-items-center"><a href="#" class="nmls">NMLS Consumer Access</a></div -->
                         </div>
                     </div>
@@ -24,16 +24,16 @@
             <div class="col-lg-12">
                 <div class="info">
                     <div class="row">
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 fncb">
+                        <div class="col-md-6 col-lg-3 fncb">
                             <a href="#" class="logo" title="First National Collections Bureau, Inc. FNCBNV">First
                                 National Collections Bureau, Inc. FNCBNV</a>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-5 fncb">
+                        <div class="col-md-6 col-lg-5 fncb">
                             <p>This communication is from a debt collector. This is an attempt to collect a debt and any
                                 information obtained will be used for that purpose.</p>
                         </div>
 
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="col-md-6 col-lg-4">
                             <b>First National Collection Bureau, Inc.</b><br>
                             50 West Liberty Street <br>
                             Suite 250<br>
