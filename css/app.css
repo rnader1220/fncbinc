@@ -296,7 +296,7 @@ body {
 }
 
 header {
-  padding: 34px 0px;
+  padding: 0px 0px;
  background-color: transparent
 }
 
@@ -355,7 +355,7 @@ header ul li a:hover {
 }
 
 .mobile-nav {
-  background-color: #ffffff;
+  background-color: #24346c;
   display: none;
 }
 
@@ -363,25 +363,7 @@ header ul li a:hover {
   display: none !important;
 }
 
-.mobile-nav .menu-item {
-  text-align: center;
-}
 
-.mobile-nav .menu-item.hide {
-  display: none;
-}
-
-.mobile-nav .menu-item a {
-  width: 100%;
-  display: block;
-  padding: 20px;
-  border: 1px solid #D9F2EA;
-  font-size: 15px;
-}
-
-.mobile-nav .menu-item a:hover {
-  background-color: #F2FBFF;
-}
 
 .hero {
   background: white;
@@ -812,7 +794,24 @@ header ul li a:hover {
   }
 
   header .mobile {
+    color: white;
+    background-color: #24346c;
     display: block;
+    text-align:right;
+    padding-right:6px;
+  }
+  header .mobile a {
+    color: white;
+    background-color: #24346c;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  header .mobile a:hover {
+    color: yellow;
+    background-color: #24346c;
+    font-weight: 700;
+    text-decoration: underline;
   }
 
   header .mobile .mobile-menu {
