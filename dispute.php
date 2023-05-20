@@ -148,270 +148,273 @@ if($_POST) {
     <link rel="icon" type="image/icon" href="/images/fncb.ico">
     <meta name="description"
         content="First National Collections Bureau is a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years." />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/app.css?v=1">
-    <link href="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-fileinput@5.2.2/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+    <?php include 'views/styles.php' ?>
+
+    <link href="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-fileinput@5.2.2/css/fileinput.min.css" media="all"
+        rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <style>
-        #doc_uploader .input-group div, 
+        #doc_uploader .input-group div,
         #doc_uploader .input-group a {
-            padding-top: 18px;  
+            padding-top: 18px;
         }
     </style>
 
 </head>
 
 <body>
-    <div class="top-bar"  data-include="topbar"></div>
-    <header  data-include="header"></header>
-    <div class="mobile-nav " id="mobileNav" data-include="mobileNav"></div>
+    <?php include 'views/topbar.php' ?>
+    <?php include 'views/header.php' ?>
+    <?php include 'views/mobileNav.php' ?>
 
     <div class="container">
-    <div class='section-one'>
-    <center><h2>Dispute Contact Form</h2></center>
-    <br><br>    
-    <?=$message ?>
+        <div class='section-one'>
+            <center>
+                <h2>Dispute Contact Form</h2>
+            </center>
+            <br><br>
+            <?=$message ?>
 
-</div>
+        </div>
 
-<?php if ($success) { ?>
-<?php } else { ?>
+        <?php if ($success) { ?>
+        <?php } else { ?>
         <div class='section-two'>
-            <div class = 'row'>
-                <div class = 'col-12'>
-            <form method='POST'>
-                <div class="row">
+            <div class='row'>
+                <div class='col-12'>
+                    <form method='POST'>
+                        <div class="row">
 
-                    <div class="col-6" id="fname_div">
-                        <div class="form-group">
-                            <label for="fname" class="control-label">First Name</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="fname" name="fname"
-                                    <?php if(isset($_POST['fname'])) {echo "value='{$_POST['fname']}'";} ?> 
-                                >
+                            <div class="col-6" id="fname_div">
+                                <div class="form-group">
+                                    <label for="fname" class="control-label">First Name</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="fname" name="fname"
+                                            <?php if(isset($_POST['fname'])) {echo "value='{$_POST['fname']}'";} ?>>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
 
-                    <div class="col-6" id="lname_div">
-                        <div class="form-group">
-                            <label for="lname" class="control-label">Last Name</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="lname" name="lname"
-                                    <?php if(isset($_POST['lname'])) {echo "value='{$_POST['lname']}'";} ?>
-                                >
+                            <div class="col-6" id="lname_div">
+                                <div class="form-group">
+                                    <label for="lname" class="control-label">Last Name</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="lname" name="lname"
+                                            <?php if(isset($_POST['lname'])) {echo "value='{$_POST['lname']}'";} ?>>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12" id="addr1_div">
-                        <div class="form-group">
-                            <label for="addr1" class="control-label">Address</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="addr1" name="addr1"
-                                    <?php if(isset($_POST['addr1'])) {echo "value='{$_POST['addr1']}'";} ?>
-                                >
+                        <div class="row">
+                            <div class="col-12" id="addr1_div">
+                                <div class="form-group">
+                                    <label for="addr1" class="control-label">Address</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="addr1" name="addr1"
+                                            <?php if(isset($_POST['addr1'])) {echo "value='{$_POST['addr1']}'";} ?>>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" id="addr2_div">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="addr2" name="addr2"
+                                            <?php if(isset($_POST['addr2'])) {echo "value='{$_POST['addr2']}'";} ?>>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6" id="city_div">
+                                <div class="form-group">
+                                    <label for="city" class="control-label">City</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="city" name="city"
+                                            <?php if(isset($_POST['city'])) {echo "value='{$_POST['city']}'";} ?>>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2" id="state_div">
+                                <div class="form-group">
+                                    <label for="state" class="control-label">ST</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="state" name="state"
+                                            <?php if(isset($_POST['state'])) {echo "value='{$_POST['state']}'";} ?>>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4" id="zipcode_div">
+                                <div class="form-group">
+                                    <label for="zipcode" class="control-label">Zip Code</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="zipcode" name="zipcode"
+                                            <?php if(isset($_POST['zipcode'])) {echo "value='{$_POST['zipcode']}'";} ?>>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12" id="addr2_div">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="addr2" name="addr2"
-                                    <?php if(isset($_POST['addr2'])) {echo "value='{$_POST['addr2']}'";} ?>
-                                >
+                        <div class="row">
+                            <div class="col-4" id="phone_div">
+                                <div class="form-group">
+                                    <label for="phone" class="control-label">Phone Number</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="phone" name="phone"
+                                            <?php if(isset($_POST['phone'])) {echo "value='{$_POST['phone']}'";} ?>>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-6" id="city_div">
-                        <div class="form-group">
-                            <label for="city" class="control-label">City</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="city" name="city"
-                                    <?php if(isset($_POST['city'])) {echo "value='{$_POST['city']}'";} ?>
-                                >
+                            <div class="col-4" id="email_div">
+                                <div class="form-group">
+                                    <label for="email" class="control-label">Email Address</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="email" name="email"
+                                            <?php if(isset($_POST['email'])) {echo "value='{$_POST['email']}'";} ?>>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-2" id="state_div">
-                        <div class="form-group">
-                            <label for="state" class="control-label">ST</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="state" name="state"
-                                    <?php if(isset($_POST['state'])) {echo "value='{$_POST['state']}'";} ?>
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" id="zipcode_div">
-                        <div class="form-group">
-                            <label for="zipcode" class="control-label">Zip Code</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="zipcode" name="zipcode"
-                                    <?php if(isset($_POST['zipcode'])) {echo "value='{$_POST['zipcode']}'";} ?>
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4" id="phone_div">
-                        <div class="form-group">
-                            <label for="phone" class="control-label">Phone Number</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="phone" name="phone"
-                                    <?php if(isset($_POST['phone'])) {echo "value='{$_POST['phone']}'";} ?>
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" id="email_div">
-                        <div class="form-group">
-                            <label for="email" class="control-label">Email Address</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="email" name="email"
-                                    <?php if(isset($_POST['email'])) {echo "value='{$_POST['email']}'";} ?>
-                                    >
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-4" id="refnumber_div">
-                        <div class="form-group">
-                            <label for="refnumber" class="control-label">Reference Number</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="refnumber" name="refnumber"
-                                    <?php if(isset($_POST['refnumber'])) {echo "value='{$_POST['refnumber']}'";} ?>
-                                >
+                            <div class="col-4" id="refnumber_div">
+                                <div class="form-group">
+                                    <label for="refnumber" class="control-label">Reference Number</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="refnumber" name="refnumber"
+                                            <?php if(isset($_POST['refnumber'])) {echo "value='{$_POST['refnumber']}'";} ?>>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                <div class="offset-1 col-10 justify-content-center" style='color:#002854;'>
-                    <strong><em><span style='font-size:1.25em;'>
-                        To be considered, please include one of the following:
-                    </span></em></strong>
-                    </div>
-                </div>
-                <div class="row border rounded" >
-                <div class="offset-1 col-4" id="lastfour_div">
-                        <div class="form-group">
-                            <label for="lastfour" class="control-label">Last Four Digits of SSN</label>
-                            <div class="input-group">
-                                <input class="form-control" type="text" id="lastfour" name="lastfour"
-                                    <?php if(isset($_POST['lastfour'])) {echo "value='{$_POST['lastfour']}'";} ?>
-                                >
+                        <div class="row">
+                            <div class="offset-1 col-10 justify-content-center" style='color:#002854;'>
+                                <strong><em><span style='font-size:1.25em;'>
+                                            To be considered, please include one of the following:
+                                        </span></em></strong>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-2 justify-content-center">
-                    <strong><em>
-                        <span style='font-size:1.25em; color:#002854'>-- OR --</span>
-                    </em></strong>
-                    </div>
-                    <div class="col-4" id="dateofbirth_div">
-                        <div class="form-group">
-                            <label for="dateofbirth" class="control-label">Date Of Birth</label>
-                            <div class="input-group">
-                                <input class="form-control" type="date" id="dateofbirth" name="dateofbirth"
-                                    <?php if(isset($_POST['dateofbirth'])) {echo "value='{$_POST['dateofbirth']}'";} ?>
-                                    >
+                        <div class="row border rounded">
+                            <div class="offset-1 col-4" id="lastfour_div">
+                                <div class="form-group">
+                                    <label for="lastfour" class="control-label">Last Four Digits of SSN</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" id="lastfour" name="lastfour"
+                                            <?php if(isset($_POST['lastfour'])) {echo "value='{$_POST['lastfour']}'";} ?>>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 justify-content-center">
+                                <strong><em>
+                                        <span style='font-size:1.25em; color:#002854'>-- OR --</span>
+                                    </em></strong>
+                            </div>
+                            <div class="col-4" id="dateofbirth_div">
+                                <div class="form-group">
+                                    <label for="dateofbirth" class="control-label">Date Of Birth</label>
+                                    <div class="input-group">
+                                        <input class="form-control" type="date" id="dateofbirth" name="dateofbirth"
+                                            <?php if(isset($_POST['dateofbirth'])) {echo "value='{$_POST['dateofbirth']}'";} ?>>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
+                        <div class="row">
 
-                    <div class="col-12" id="reason_div">
-                        <div class="form-group">
-                            <label for="reason" class="control-label">Dispute Reason</label>
-                            <select class="form-control" name="reason" id="sel_reason">
-                                <option selected disabled value=''>-- select one --</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Fraud') echo 'checked';} ?> value="Fraud">Fraud</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Verification of Debt') echo 'checked';} ?> value="Verification of Debt">Verification of Debt</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Dispute Balance') echo 'checked';} ?> value="Dispute Balance">Dispute Balance</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Paid Prior') echo 'checked';} ?> value="Paid Prior">Paid Prior</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Returned Merchandise') echo 'checked';} ?> value="Returned Merchandise">Returned Merchandise</option>
-                                <option <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Substantiation of Debt') echo 'checked';} ?> value="Substantiation of Debt">Substantiation of Debt (New York Only)</option>
-                            </select>
+                            <div class="col-12" id="reason_div">
+                                <div class="form-group">
+                                    <label for="reason" class="control-label">Dispute Reason</label>
+                                    <select class="form-control" name="reason" id="sel_reason">
+                                        <option selected disabled value=''>-- select one --</option>
+                                        <option
+                                            <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Fraud') echo 'checked';} ?>
+                                            value="Fraud">Fraud</option>
+                                        <option
+                                            <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Verification of Debt') echo 'checked';} ?>
+                                            value="Verification of Debt">Verification of Debt</option>
+                                        <option
+                                            <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Dispute Balance') echo 'checked';} ?>
+                                            value="Dispute Balance">Dispute Balance</option>
+                                        <option
+                                            <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Paid Prior') echo 'checked';} ?>
+                                            value="Paid Prior">Paid Prior</option>
+                                        <option
+                                            <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Returned Merchandise') echo 'checked';} ?>
+                                            value="Returned Merchandise">Returned Merchandise</option>
+                                        <option
+                                            <?php if(isset($_POST['reason'])) { if($_POST['reason'] == 'Substantiation of Debt') echo 'checked';} ?>
+                                            value="Substantiation of Debt">Substantiation of Debt (New York Only)
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-12" id="detail_div">
+                                <div class="form-group">
+                                    <label for="detail" class="control-label">Description of Dispute</label>
+                                    <textarea class="form-control" id="detail"
+                                        name="detail"><?php if(isset($_POST['detail'])) {echo "{$_POST['detail']}";} ?></textarea>
+                                </div>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-12" id="detail_div">
-                        <div class="form-group">
-                            <label for="detail" class="control-label">Description of Dispute</label>
-                            <textarea class="form-control" id="detail" name="detail"><?php if(isset($_POST['detail'])) {echo "{$_POST['detail']}";} ?></textarea>
+                        <div class="row">
+                            <div class="offset-2 col-8 pt-3">
+                                <p>By providing your phone number, you consent to receive text messages from us at the
+                                    number provided. Consent to receive marketing text messages is not required as a
+                                    condition of purchasing any goods or services. Consent for friendly bill reminder
+                                    notifications may be sent. Message frequency varies. Message and data rates may
+                                    apply. Reply STOP to unsubscribe at any time.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="offset-2 col-8 pt-3">
-                    <p>By providing your phone number, you consent to receive text messages from us at the number provided. Consent to receive marketing text messages is not required as a condition of purchasing any goods or services. Consent for friendly bill reminder notifications may be sent. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe at any time.</p>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-12 pt-3" id="submit_div">
-                    <button type="submit" class="btn btn-primary float-end">Submit</button>
+                        <div class="row">
+                            <div class="col-12 pt-3" id="submit_div">
+                                <button type="submit" class="btn btn-primary float-end">Submit</button>
 
-                    </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </form>
+                <div class='col-12'>
+                    <span class="file-name">Upload files before submitting form!</span>
+                    <form id='doc_uploader' enctype="multipart/form-data">
+                        <div class="upload-wrapper">
+                            <label for="file-upload">Browse</label>
+
+                            <input type="file" id="upload_document" name="uploadedFile">
+                        </div>
+                    </form>
                 </div>
-            <div class = 'col-12'>
-            <span class="file-name">Upload files before submitting form!</span>
-            <form id='doc_uploader' enctype="multipart/form-data">
-                <div class="upload-wrapper">
-                <label for="file-upload">Browse</label>
-        
-                <input type="file" id="upload_document" name="uploadedFile">
-                </div>
-            </form>
             </div>
         </div>
+        <script>
+
+        </script>
+
+
+        <?php } ?>
+
     </div>
-    <script>
-
-    </script>
 
 
-  <?php } ?>
 
-    </div>
+    <?php include 'views/footer.php' ?>
+</body>
+<?php include 'views/scripts.php' ?>    
 
-    <div class="footer" data-include="footer"></div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-fileinput@5.2.2/js/plugins/piexif.min.js" type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-fileinput@5.2.2/js/plugins/sortable.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-fileinput@5.2.2/js/plugins/piexif.min.js"
+        type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-fileinput@5.2.2/js/plugins/sortable.min.js"
+        type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-fileinput@5.2.2/js/fileinput.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-fileinput@5.2.2/themes/fas/theme.min.js"></script>
 
     <script>
-        function toggler(divId) {
-            $("#" + divId).toggle();
-        }
         $(function () {
-            var includes = $('[data-include]')
-            $.each(includes, function () {
-            var file = 'views/' + $(this).data('include') + '.html'
-            $(this).load(file)
-
-
             $("#upload_document").fileinput({
-                bsVersion: "5.x",
-                theme: "fas",
-                maxFileCount: 4,
-                uploadUrl: '/dispute_upload.php'
-            });
+                    bsVersion: "5.x",
+                    theme: "fas",
+                    maxFileCount: 4,
+                    uploadUrl: '/dispute_upload.php'
+                });
 
         })
-})
     </script>
 </body>
 
