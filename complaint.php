@@ -4,39 +4,39 @@ $success = false;
 if($_POST) {
     $message = '';
     $valid=true;
-    if(!$_POST['fname'] || trim($_POST['fname']) != '') {
+    if(!$_POST['fname'] || trim($_POST['fname']) == '') {
         $message.= "First Name Required<br/>";
         $valid=false;
     }
-    if(!$_POST['lname'] || trim($_POST['lname']) != '') {
+    if(!$_POST['lname'] || trim($_POST['lname']) == '') {
         $message.= "Last Name Required<br/>";
         $valid=false;
     }
-    if(!$_POST['addr1'] || trim($_POST['addr1']) != '') {
+    if(!$_POST['addr1'] || trim($_POST['addr1']) == '') {
         $message.= "Address Line 1 Required<br/>";
         $valid=false;
     }
-    if(!$_POST['city'] || trim($_POST['city']) != '') {
+    if(!$_POST['city'] || trim($_POST['city']) == '') {
         $message.= "Address City Required<br/>";
         $valid=false;
     }
-    if(!$_POST['state'] || trim($_POST['state']) != '') {
+    if(!$_POST['state'] || trim($_POST['state']) == '') {
         $message.= "Address State Required<br/>";
         $valid=false;
     }
-    if(!$_POST['zipcode'] || trim($_POST['zipcode']) != '') {
+    if(!$_POST['zipcode'] || trim($_POST['zipcode']) == '') {
         $message.= "Address Zip Code Required<br/>";
         $valid=false;
     }
-    if(!$_POST['phone'] || trim($_POST['phone']) != '') {
+    if(!$_POST['phone'] || trim($_POST['phone']) == '') {
         $message.= "Phone Number Required<br/>";
         $valid=false;
     }
-    if(!$_POST['email'] || trim($_POST['email']) != '') {
+    if(!$_POST['email'] || trim($_POST['email']) == '') {
         $message.= "Email Address Required<br/>";
         $valid=false;
     }
-    if(!$_POST['refnumber'] || trim($_POST['refnumber']) != '') {
+    if(!$_POST['refnumber'] || trim($_POST['refnumber']) == '') {
         $message.= "Reference Number Required<br/>";
         $valid=false;
     }

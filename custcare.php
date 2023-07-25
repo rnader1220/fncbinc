@@ -10,7 +10,7 @@ ini_set('display_errors', True);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-if(session_status() !== PHP_SESSION_ACTIVE) {
+if(session_status() === PHP_SESSION_ACTIVE) {
     session_start();
 }
 
@@ -19,47 +19,47 @@ $success = false;
 if($_POST) {
     $message = '';
     $valid=true;
-    if(!isset($_POST['fname']) || trim($_POST['fname']) != '') {
+    if(!isset($_POST['fname']) || trim($_POST['fname']) == '') {
         $message.= "First Name Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['lname']) || trim($_POST['lname']) != '') {
+    if(!isset($_POST['lname']) || trim($_POST['lname']) == '') {
         $message.= "Last Name Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['addr1']) || trim($_POST['addr1']) != '') {
+    if(!isset($_POST['addr1']) || trim($_POST['addr1']) == '') {
         $message.= "Address Line 1 Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['city']) || trim($_POST['city']) != '') {
+    if(!isset($_POST['city']) || trim($_POST['city']) == '') {
         $message.= "Address City Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['state']) || trim($_POST['state']) != '') {
+    if(!isset($_POST['state']) || trim($_POST['state']) == '') {
         $message.= "Address State Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['zipcode']) || trim($_POST['zipcode']) != '') {
+    if(!isset($_POST['zipcode']) || trim($_POST['zipcode']) == '') {
         $message.= "Address Zip Code Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['phone']) || trim($_POST['phone']) != '') {
+    if(!isset($_POST['phone']) || trim($_POST['phone']) == '') {
         $message.= "Phone Number Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['email']) || trim($_POST['email']) != '') {
+    if(!isset($_POST['email']) || trim($_POST['email']) == '') {
         $message.= "Email Address Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['refnumber']) || trim($_POST['refnumber']) != '') {
+    if(!isset($_POST['refnumber']) || trim($_POST['refnumber']) == '') {
         $message.= "Reference Number Required<br/>";
         $valid=false;
     }
-    if(!isset($_POST['topic']) || trim($_POST['topic']) != '') {
+    if(!isset($_POST['topic']) || trim($_POST['topic']) == '') {
         $message.= "Customer Care Topic Required<br/>";
         $valid=false;
     }
-    if((!isset($_POST['lastfour']) || trim($_POST['lastfour']) != '') && (!isset($_POST['dateofbirth']) || trim($_POST['dateofbirth']) != '')) {
+    if((!isset($_POST['lastfour']) || trim($_POST['lastfour']) == '') && (!isset($_POST['dateofbirth']) || trim($_POST['dateofbirth']) == '')) {
         $message.= "Either Last Four of SSN or Date of Birth required<br/>";
         $valid=false;
     }
