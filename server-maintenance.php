@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors none">
+    <meta http-equiv="Content-security-policy" content="frame-ancestors none">
+    <meta http-equiv="Cache-control" content="no-cache">
     <title>First National Collections Bureau - Payment Server Maintenance</title>
     <link rel="icon" type="image/icon" href="/images/fncb.ico">
     <meta name="description" content="First National Collections Bureau is a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years." />

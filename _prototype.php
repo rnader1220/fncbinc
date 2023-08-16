@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+header("Content-Type: text/html; charset=utf-8"); 
+header("Cache-Control: no-cache, must-revalidate"); 
+header("Content-Security-Policy: frame-ancestors none");
+header("Strict-Transport-Security: max-age=31536000");
+header("X-Content-Type-Options: nosniff"); 
+?>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors none">
     <title>First National Collections Bureau - Prototype</title>
     <link rel="icon" type="image/icon" href="/images/fncb.ico">
     <meta name="description" content="First National Collections Bureau is a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years." />
