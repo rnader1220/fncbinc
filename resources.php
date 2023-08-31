@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-header("Content-Type: text/html; charset=utf-8"); 
-header("Cache-Control: no-cache, must-revalidate"); 
-header("Content-Security-Policy: frame-ancestors none");
-header("Strict-Transport-Security: max-age=31536000"); 
-header("X-Content-Type-Options: nosniff"); 
-?>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
