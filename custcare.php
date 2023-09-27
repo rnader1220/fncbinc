@@ -336,11 +336,7 @@ if($_POST) {
 
                         <div class="row">
                             <div class="offset-2 col-8 pt-3">
-                                <p>By providing your phone number, you consent to receive text messages from us at the
-                                    number provided. Consent to receive marketing text messages is not required as a
-                                    condition of purchasing any goods or services. Consent for friendly bill reminder
-                                    notifications may be sent. Message frequency varies. Message and data rates may
-                                    apply. Reply STOP to unsubscribe at any time.</p>
+                            <p>By providing your phone number and email address, you consent to receive text messages and email messages from us at the number and email provided. Friendly bill reminder notifications may be sent. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe at any time.</p>
                             </div>
                         </div>
 

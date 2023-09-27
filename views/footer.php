@@ -4,19 +4,14 @@
             <div class="col-lg-12">
                 <div class="company-logos ">
                     <div class="row gx-0">
-                        <div class="col-3">
-                            <!-- div class="company d-flex align-items-center"><a href="#" class="bbb">BBB Acredited Business</a></div -->
-                        </div>
-                        <div class="col-3">
+
+                        <div class="offset-3 col-3">
                             <div class="company d-flex align-items-center"><a href="#" class="aca">ACA International</a>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="company d-flex align-items-center"><a target='_blank'
                                     href="https://rmaintl.org/consumers/" class="rmai">RMAi Member</a></div>
-                        </div>
-                        <div class="col-3">
-                            <!-- div class="company d-flex align-items-center"><a href="#" class="nmls">NMLS Consumer Access</a></div -->
                         </div>
                     </div>
                 </div>
@@ -29,8 +24,11 @@
                                 National Collections Bureau, Inc. FNCBNV</a>
                         </div>
                         <div class="col-md-6 col-lg-5 fncb">
-                            <p>This communication is from a debt collector. This is an attempt to collect a debt and any
-                                information obtained will be used for that purpose.</p>
+                            <p>This communication is from a debt collector.<br>This is an attempt to collect a debt and any
+                                information<br>obtained will be used for that purpose.</p>
+                                <p style='font-size:0.80em;'>NMLS #:934310
+                                <br>NV Collection Agency License #: CAD11256
+                                <br>Compliance Manager Certificate Identification #: CM100001</p>
                         </div>
 
                         <div class="col-md-6 col-lg-4">
