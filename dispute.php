@@ -13,7 +13,7 @@ ini_set('display_errors', True);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-if(session_status() === PHP_SESSION_ACTIVE) {
+if(session_status() != PHP_SESSION_ACTIVE) {
     session_start();
 }
 
