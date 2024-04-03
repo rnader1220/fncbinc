@@ -72,7 +72,7 @@ if($_POST) {
         $success = false;
     } else {
 
-        $to = "correspondence@fncbinc.com"; // this is your Email address
+        $to = "correspondence@fncbnv.com"; // this is your Email address
         //$to = 'rnader@dyn-it.com'; // Test Email Address
         $from = $_POST['email']; // this is the sender's Email address
         $first_name = $_POST['fname'];

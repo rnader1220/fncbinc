@@ -27,7 +27,7 @@
                         <b>First National Collection Bureau, Inc.</b>
                     </p>
                     <p>
-                        <b>Email: </b><a href="mailto:Requests@fncbinc.com">Requests@fncbinc.com</a>
+                        <b>Email: </b><a href="mailto:Requests@fncbnv.com">Requests@fncbnv.com</a>
                     </p>
                     <p>
                         <b>Phone: </b><a href="tel:800-824-6191">(800) 824-6191</a>
