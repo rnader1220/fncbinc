@@ -13,7 +13,7 @@ require_once('./src/PHPMailer.php');
 require_once('./src/Exception.php');
 
 error_reporting(E_NONE);
-ini_set('display_errors', True);
+ini_set('display_errors', False);
 
 
 use PHPMailer\PHPMailer\PHPMailer;
