@@ -1,3 +1,9 @@
+<?php
+if(session_status() != PHP_SESSION_ACTIVE) {
+    session_start();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,16 +12,13 @@
 require_once('./src/PHPMailer.php');
 require_once('./src/Exception.php');
 
-error_reporting(E_ALL);
+error_reporting(E_NONE);
 ini_set('display_errors', True);
 
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-if(session_status() != PHP_SESSION_ACTIVE) {
-    session_start();
-}
 
 $success = false;
 
@@ -72,7 +75,7 @@ if($_POST) {
         $success = false;
     } else {
 
-        $to = "correspondence@fncbnv.com"; // this is your Email address
+        $to = "correspondence@fncbinc.com"; // this is your Email address
         //$to = 'rnader@dyn-it.com'; // Test Email Address
         $from = $_POST['email']; // this is the sender's Email address
         $first_name = $_POST['fname'];

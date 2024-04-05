@@ -58,6 +58,25 @@
                         </a>
                     </div>
                 </div>
+                <div class="col-lg-8">
+                    <div class="card">
+                        <a style="text-decoration:none" href="https://www.experian.com/blogs/ask-experian/how-quickly-will-paying-off-an-account-affect-my-credit-score/" target="_new">
+                        <div class="card-header">
+                            <center>
+                                <div class='card-title'><h4>How Quickly Will Paying Off an Account Affect My Credit Score?</h4></div>
+                            </center>
+                        </div>
+                        <div class="card-body">
+                        "How paying off an account will impact your credit scores depends on your credit history as a whole as well as the type of account that is being paid."
+                        </div>
+                        <div class="card-footer">
+                            <center>https://www.experian.com/blogs/ask-experian</center>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
