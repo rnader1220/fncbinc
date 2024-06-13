@@ -50,13 +50,19 @@ if($_POST) {
         $success = false;
     } else {
         $to = "correspondence@fncbinc.com"; // this is your Email address
-        $from = $_POST['email']; // this is the sender's Email address
+        //$to = 'rnader@dyn-it.com'; // Test Email Address
+        //$to = 'richard.nader@email.com'; // Public / Secure Email Address
+
+        //$from = $_POST['email']; // this is the sender's Email address
+        $from = 'no-reply@fncbnv.com'; // No-Reply Box on server
         $first_name = $_POST['fname'];
         $last_name = $_POST['lname'];
         $subject = "Complaint Form submission";
         $message = "Complaint Form Data: \n\n" .
+        "Email Address: {$_POST['email']} \n".
         "First Name: {$_POST['fname']} \n".
         "Last Name: {$_POST['lname']} \n\n".
+        //$from = $_POST['email']; // this is the sender's Email address
         "Address: \n" . 
         "{$_POST['addr1']} \n".
         (strlen(ltrim($_POST['addr2'])) > 1 ?"{$_POST['addr2']} \n":"").

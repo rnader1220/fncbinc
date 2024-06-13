@@ -77,7 +77,11 @@ if($_POST) {
 
         $to = "correspondence@fncbinc.com"; // this is your Email address
         //$to = 'rnader@dyn-it.com'; // Test Email Address
-        $from = $_POST['email']; // this is the sender's Email address
+        //$to = 'richard.nader@email.com'; // Public / Secure Email Address
+        $from = 'no-reply@fncbnv.com'; // No-Reply Box on server
+        //$from = $_POST['email']; // this is the sender's Email address
+
+
         $first_name = $_POST['fname'];
         $last_name = $_POST['lname'];
         $subject = "Dispute Form submission";
