@@ -11,9 +11,9 @@
                 <a href="/">Home</a><br>
                 <!-- div class="col-6 menu-item"><a href="/remove-number">Remove Number</a></div -->
                 <a href="/contact.php">Contact</a><br>
-                <a href="/dispute.php">Dispute</a><br>
-                <a href="/custcare.php">Customer Care</a><br>
-                <a href="/complaint.php">Complaint</a><br>
+                <a href="/dispute2.php">Dispute</a><br>
+                <a href="/custcare2.php">Customer Care</a><br>
+                <a href="/complaint2.php">Complaint</a><br>
                 <a href="/resources.php">Resources</a><br>
                 <!-- need to point to actual login portal-->
                 <a target='_blank' href="<?=$server_link ?>">Login</a><br>
@@ -45,9 +45,9 @@
                     <!-- li><a href="/remove-number.php">Remove Number</a></li -->
                     <li><a href="/contact.php">Contact</a></li>
 
-                    <li><a href="/dispute.php">Dispute</a></li>
-                    <li><a href="/custcare.php">Customer Care</a></li>
-                    <li><a href="/complaint.php">Complaint</a></li>
+                    <li><a href="/dispute2.php">Dispute</a></li>
+                    <li><a href="/custcare2.php">Customer Care</a></li>
+                    <li><a href="/complaint2.php">Complaint</a></li>
                     <li><a href="/resources.php">Resources</a></li>
 
 

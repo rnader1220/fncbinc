@@ -21,8 +21,8 @@ $success = false;
 
 <body>
 <?php include 'views/topbar.php' ?>
-    <?php include 'views/header.php' ?>
-    <?php include 'views/mobileNav.php' ?>
+<?php include 'views/header.php' ?>
+<?php include 'views/mobileNav.php' ?>
 
     <div class="container">
         <div class='section-one'>
