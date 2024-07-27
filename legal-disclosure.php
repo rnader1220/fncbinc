@@ -52,7 +52,9 @@
                 </ol>
                 You may also request from us a copy of the contract or other document evidencing your
                 agreement to the debt. A request for these records may be addressed to: 50 W. Liberty Street Suite 250
-                Reno, NV 89501.
+                Reno, NV 89501.<br>
+                First National Collection Bureau, Inc CA License # 10777-99
+
             </p>
             <h4>FOR COLORADO RESIDENTS</h4>
             <p>
@@ -65,7 +67,11 @@
                 collector or collection agency from taking any other action authorized by law to collect the debt.
                 Our Colorado office is at:<br>
                 7200 S. Alton Way,<br>Suite B180<br>Centennial, CO 80112<br>
-                <a href="tel:303-309-3839">(303) 309-3839</a>
+                <a href="tel:303-309-3839">(303) 309-3839</a><br>
+                Colorado law prohibits credit bureaus from reporting medical debt or factoring medical debt into a 
+                credit score unless the consumer report is to be used in connection with a credit transaction that 
+                involves, or that may reasonably be expected to involve, a principal amount that exceeds the national 
+                conforming loan limit value for a one-unit property as determined by the federal housing finance authority.
             </p>
             <h4>FOR DISTRICT OF COLOMBIA RESIDENTS</h4>
             <p>
@@ -123,8 +129,13 @@
             </p>
             <p>New York City Consumers: First National Collection Bureau, Inc. does not provide language access
                 services. A translation and description of commonly used debt collection terms is available in multiple
-                languages at www.nyc.gov/dcwp
+                languages at <a href="https://www.nyc.gov/dcwp" target="_new">www.nyc.gov/dcwp</a>
             </p>
+            <p>New York State Department of Financial Services Regulations provides that you may dispute the debt 
+                and request substantiation of the debt at any time. To request substantiation of the debt,
+                please write to us describing the reason for your dispute and mail your request 
+                to us at 50 W Liberty St., Ste 250, Reno, NV 89501 or email your request 
+                to us at <a href='mailto:Requests@fncbinc.com'>Requests@fncbinc.com</a></p>
             <p>
                 <h4>FOR NORTH CAROLINA RESIDENTS</h4>
                 North Carolina Permit Number:4105

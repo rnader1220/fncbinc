@@ -41,6 +41,7 @@
                             Se habla español
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 fncb centered">
+                            <p>New York City Consumers: First National Collection Bureau, Inc. is able to provide communications in English and in some instances, does provide agents who can speak in Spanish. First National Collection Bureau, Inc. does not provide language access services. A translation and description of commonly used debt collection terms is available in multiple languages at <a href="https://www.nyc.gov/dcwp" target="_new" >www.nyc.gov/dcwp</a></p>
                             <p>© Copyright <?=date("Y") ?> First National Collections Bureau, Inc. All rights reserved.</p>
                         </div>
                     </div>

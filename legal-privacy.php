@@ -184,16 +184,23 @@
                 By submitting a payment, you are giving FNCB, Inc. and our employee’s permission to contact you at the
                 telephone number provided (landline or cellular) and at the mailing address provided, apart from of any
                 registration with state or national do not call lists associated with that telephone number. Contact
-                methods could include telephone calls and mail.
-                </p><p>
+                methods could include telephone calls and mail. Your consent to receive phone calls at the phone number 
+                provided may be withdrawn at any time by contacting us at <a href="tel:800-824-6191">(800) 824-6191</a> or by email at 
+                <a href='mailto:Requests@fncbinc.com'>Requests@fncbinc.com</a>.
+            </p>
+            <p>
                 If you are making a payment, logging into our web-based servers the server will populate the web pages
                 called up with your information. The web page will access our data servers to obtain your user
                 information including your name, address, and related data.</p><p>
                 FNCB, Inc. has taken reasonable steps and has appropriate measures in place to protect personal
                 information. This includes, but is not limited to, virus protection and security in place to prevent
                 unauthorized access to the information stored and supplied on the FNCB, Inc. servers when a user logs
-                into the system or visits the website. Our web servers can send cookies to your web browser (major web browsers are Google Chrome, Mozilla                 Firefox, Internet Explorer, Opera, and Safari), cookies are small pieces of data sent to your browser to
-                store and track information about you. The small pieces of data are stored on your computer. </p><p>
+                into the system or visits the website. Our web servers can send cookies to your web browser 
+                (major web browsers are Google Chrome, Mozilla Firefox, Internet Explorer, Opera, and Safari), 
+                cookies are small pieces of data sent to your browser to store and track information about you. 
+                The small pieces of data are stored on your computer. 
+            </p>
+            <p>
                 The use of cookies is standard in web browsing. Most web browsers are defaulted to accept cookies. If
                 you prefer not to accept cookies, you can set your web browser to refuse either to accept cookies or to
                 notify you when you receive a cookie. If you decide not to accept cookies, some features of the FNCB,
@@ -244,11 +251,12 @@
                 Reno, Nevada 89501
             </p>
             <p>
-                If you want to contact FNCB, Inc. about to review or request changes to personally identifiable
-                information collected by FNCB, Inc. Please use the U.S. Postal Service for all correspondence regarding
-                that account. It must include your name, your mailing address, the FNCB account number, creditor name,
-                and creditor account number. Without complete information, FNCB, Inc. will be unable to respond to your
-                request, until we have complete information.
+            If you want to contact First National Collection Bureau, Inc. to review or request changes to personally 
+            identifiable information collected by First National Collection Bureau, Inc. Please use the U.S. Postal 
+            Service for all correspondence regarding that account. It must include your name, your mailing address, 
+            the FNCB reference number, creditor name, and creditor account number. Without complete information, 
+            First National Collection Bureau, Inc. will be unable to respond to your request, until we have complete 
+            information.
             </p>
             <p>
                 <b>Mailing Address:</b><br>
