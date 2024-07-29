@@ -19,9 +19,9 @@
     <div class="container">
         <div class='section-one'>
             <center>
-                <h2>Website Terms of Use</h2>
-                First National Collection Bureau, Inc. (FNCB, Inc.)
-                <h4>FNCB, Inc. Privacy Policy – Revised May 5, 2020</h4>
+                <h1>Website Terms of Use</h1>
+                First National Collection Bureau, Inc. (FNCB, Inc.)<br>
+                FNCB, Inc. Privacy Policy – Revised May 5, 2020
             </center>
             <p>
             <h4>Acceptance of the Terms of Use</h4>
