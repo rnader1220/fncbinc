@@ -22,11 +22,11 @@
             <div class="row gx-0">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="message-first">
-                        <p style="font-size:2.0em; font-weight:bold; color:#555">Don’t let your past<br>define your future.</p>
+                        <p role='heading' style="font-size:2.0em; font-weight:bold; color:#555">Don’t let your past<br>define your future.</p>
                         <p>We are a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years.</p>
                     </div>
                     <div class="message-second">
-                        <p style="font-size:1.5em; font-weight:bold; color:#555">First National Collection Bureau, Inc. aka FNCBNV</p>
+                        <p role='heading' style="font-size:1.5em; font-weight:bold; color:#555">First National Collection Bureau, Inc. aka FNCBNV</p>
                         <p> Our success depends on you. Compassionate recovery services provided with the highest level of compliance and data security.</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
 
     
 
-<div id='phonelist'>
+<div id='phonelist' aria-hidden="true">
 201-409-2863 201-483-0360 201-578-2385 201-578-3264 201-613-7678 202-852-1548 202-852-1570 203-793-4255 203-793-4498 203-902-2142
 205-583-7689 205-707-1793 205-859-1035 206-445-7979 206-603-2522 207-419-2905 207-506-5909 208-225-5410 208-281-5551 209-500-3999
 209-509-0525 210-964-8930 210-964-8983 213-376-1528 213-376-6602 214-774-4416 214-774-4423 215-461-4296 215-461-4301 215-461-4326

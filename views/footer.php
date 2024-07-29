@@ -6,7 +6,7 @@
                     <div class="row gx-0">
 
                         <div class="offset-3 col-3">
-                            <div class="company d-flex align-items-center"><a class="aca">ACA International</a>
+                            <div class="company d-flex align-items-center"><span class="aca">ACA International</span>
                             </div>
                         </div>
                         <div class="col-3">
@@ -20,8 +20,8 @@
                 <div class="info">
                     <div class="row">
                         <div class="col-md-6 col-lg-4 fncb">
-                            <a href="#" class="logo" title="First National Collections Bureau, Inc. FNCBNV">First
-                                National Collections Bureau, Inc. FNCBNV</a>
+                            <span class="logo" title="First National Collections Bureau, Inc. FNCBNV">First
+                                National Collections Bureau, Inc. FNCBNV</span>
                         </div>
                         <div class="col-md-6 col-lg-5 fncb">
                             <p>This communication is from a debt collector.<br>This is an attempt to collect a debt and any
