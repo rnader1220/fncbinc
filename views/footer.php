@@ -6,11 +6,11 @@
                     <div class="row gx-0">
 
                         <div class="offset-3 col-3">
-                            <div class="company d-flex align-items-center"><a href="#" class="aca">ACA International</a>
+                            <div class="company d-flex align-items-center"><a class="aca">ACA International</a>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="company d-flex align-items-center"><a target='_blank'
+                            <div class="company d-flex align-items-center"><a target='_blank'  aria-label="RMAi Member - new tab"
                                     href="https://rmaintl.org/consumers/" class="rmai">RMAi Member</a></div>
                         </div>
                     </div>
@@ -19,7 +19,7 @@
             <div class="col-lg-12">
                 <div class="info">
                     <div class="row">
-                        <div class="col-md-6 col-lg-3 fncb">
+                        <div class="col-md-6 col-lg-4 fncb">
                             <a href="#" class="logo" title="First National Collections Bureau, Inc. FNCBNV">First
                                 National Collections Bureau, Inc. FNCBNV</a>
                         </div>
@@ -31,13 +31,13 @@
                                 <br>Compliance Manager Certificate Identification #: CM100001</p>
                         </div>
 
-                        <div class="col-md-6 col-lg-4">
+                        <div class="col-md-6 col-lg-3">
                             <b>First National Collection Bureau, Inc.</b><br>
                             50 West Liberty Street <br>
                             Suite 250<br>
                             Reno, NV 89501<br>
-                            <a href="tel:800-824-6191">(800) 824-6191</a>&nbsp;&nbsp;|&nbsp;&nbsp;TTY/TTD service: Dial
-                            711<br>
+                            <a href="tel:800-824-6191">(800) 824-6191</a><br>
+                            TTY/TTD service: Dial 711<br>
                             Se habla español
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 fncb centered">
@@ -56,7 +56,7 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <!-- need payment portal url-->
-                        <li><a target='_blank' href="<?=$server_link ?>">Payment Portal</a></li>
+                        <li><a target='_blank' href="<?=$server_link ?>"  aria-label="Payment Portal - new tab">Payment Portal</a></li>
                         <!-- li><a href="/remove-number.php">Remove Number</a></li -->
                         <li><a href="/contact.php">Contact</a></li>
 

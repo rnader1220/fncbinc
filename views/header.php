@@ -16,8 +16,8 @@
                 <a href="/complaint2.php">Complaint</a><br>
                 <a href="/resources.php">Resources</a><br>
                 <!-- need to point to actual login portal-->
-                <a target='_blank' href="<?=$server_link ?>">Login</a><br>
-                <a target='_blank' href="<?=$server_link ?>" style='font-weight:bold; font-size:1.25em' >Make Payment</a>
+                <a target='_blank' href="<?=$server_link ?>" aria-label="Make Payment - new tab">Login</a><br>
+                <a target='_blank' href="<?=$server_link ?>" style='font-weight:bold; font-size:1.25em' aria-label="Make Payment - new tab">Make Payment</a>
         </div>
     </div>
     <div class="top-bar">
@@ -52,10 +52,10 @@
 
 
                     <!-- need to point to actual login portal-->
-                    <li><a target='_blank' href="<?=$server_link ?>">Review Your Account</a></li>
+                    <li><a target='_blank' href="<?=$server_link ?>" aria-label="Make Payment - new tab">Review Your Account</a></li>
 
                     <!-- need to point to actual login portal-->
-                    <li><a target='_blank' href="<?=$server_link ?>" class="button normal">Make Payment</a></li>
+                    <li><a target='_blank' href="<?=$server_link ?>" class="button normal" aria-label="Make Payment - new tab">Make Payment</a></li>
                 </ul>
             </div>
 

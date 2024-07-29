@@ -19,9 +19,9 @@
     <div class="container">
         <div class='section-one'>
             <center>
-                <h2>Privacy Policy</h2>
-                First National Collection Bureau, Inc. (FNCB, Inc.)
-                <h4>FNCB, Inc. Privacy Policy – Revised August 2, 2019</h4>
+                <h1>Privacy Policy</h1>
+                First National Collection Bureau, Inc. (FNCB, Inc.)<br>
+                FNCB, Inc. Privacy Policy – Revised July 29, 2024
             </center>
             <p>
                 First National Collection Bureau, Inc. (FNCB, Inc.) is a Debt Collector attempting to collect a debt and
@@ -50,19 +50,19 @@
                 or use personal information from children under 13 years of age.</p><p>
             </p>
             <p>
-                <h4>Customer Service</h4>
+                <H2>Customer Service</H2>
                 It is FNCB, Inc.'s intention to provide superior customer service, so we may need to contact you by
                 telephone number provided (landline or cellular), postal mail or if questions arise regarding your
                 payment or inquiry initiated by you. FNCB, Inc. is a Debt Collector we follow to State and Federal Laws
                 (Fair Debt Collection Practices Act or FDCPA) when communicating with debtors.
             </p>
             <p>
-                <h4>Commitment to Privacy</h4>
+                <H2>Commitment to Privacy</H2>
                 Your privacy is important to us, to protect your privacy we present this notice explaining FNCB, Inc.’s
                 online information practices.
             </p>
             <p>
-                <h4>Commitment to Data Security</h4>
+                <H2>Commitment to Data Security</H2>
                 FNCB, Inc. takes reasonable precautions to safeguard your personal information against loss, theft, and
                 misuse, as well as against unauthorized access, disclosure, alteration, and destruction.</p><p>
                 FNCB, Inc. takes reasonable precautions to prevent unauthorized access, maintain data accuracy, and
@@ -76,14 +76,14 @@
                 place.</p><p>
             </p>
             <p>
-                <h4>Links to other websites</h4>
+                <H2>Links to other websites</H2>
                 Our website and services may contain links to other sites and services on the Internet. We do not review
                 the content or terms of service of websites linked to the FNCB, Inc. website. We have no control over
                 these external sites, we are not liable for their content, and we cannot validate their security,
                 advertising, products, or other materials that may appear on or may be available on external sites.
             </p>
             <p>
-                <h4>The Right to Disclose</h4>
+                <H2>The Right to Disclose</H2>
                 FNCB, Inc. reserves the right to disclose different aspects of your personal information without your
                 consent as listed below.
                 <ul>
@@ -100,7 +100,7 @@
                 </ul>
             </p>
             <p>
-                <h4>Personal Responsibility about the Protection of your Information</h4>
+                <H2>Personal Responsibility about the Protection of your Information</H2>
                 If you post or talk about FNCB, Inc. in forum, chat room, or social networking service, the personal
                 information you share is visible to other users and can be read, collected, or used by them. You are
                 responsible for the personal information you choose to submit in these instances.</p><p>
@@ -108,7 +108,7 @@
                 public information.
             </p>
             <p>
-                <h4>How and what kind of information is collected by FNCB, Inc. from visitors to our website?</h4>
+                <H2>How and what kind of information is collected by FNCB, Inc. from visitors to our website?</H2>
                 The FNCB, Inc. site is not set up to automatically collect personally identifiable information from each
                 visitor. The FNCB, Inc. website tracks information about your visit and stores that information in our
                 web server logs, these server logs maintain a record of all activities that occur on our site. This
@@ -122,7 +122,7 @@
                 address.
             </p>
             <p>
-                <h4>Cookies</h4>
+                <H2>Cookies</H2>
                 Our web servers can send cookies to your web browser (major web browsers are Google Chrome, Mozilla
                 Firefox, Internet Explorer, Opera, and Safari), cookies are small pieces of data sent to your browser.
                 The small pieces of data are stored on your computer. Cookies cannot be used to acquire confidential or
@@ -141,7 +141,7 @@
                 release.
             </p>
             <p>
-                <h4>User Supplied Information</h4>
+                <H2>User Supplied Information</H2>
                 If you want to make a payment, we ask you to provide information that will enable FNCB, Inc. to verify
                 whether you are entitled to access the payment portal. In completing payment information, the you will
                 need to provide this information; your name, e-mail address, phone number, address, as well as other
@@ -152,12 +152,12 @@
                 with any non-affiliate outside parties.
             </p>
             <p>
-                <h4>How does FNCB, Inc. obtain your personal information?</h4>
+                <H2>How does FNCB, Inc. obtain your personal information?</H2>
                 FNCB, Inc. does not collect any personal information from our website from you unless you provide it to
                 FNCB, Inc.
             </p>
             <p>
-                <h4>Does FNCB, Inc. disclose Personal Information?</h4>
+                <H2>Does FNCB, Inc. disclose Personal Information?</H2>
                 FNCB, Inc. will not share the Personal Information we collect with any non-affiliate third parties.
                 Personal information is information that is associated with your name or personal identity. The types of
                 personal information you might provide to us may include name, address, phone number, e-mail address,
@@ -169,18 +169,18 @@
                 collected used for debt collection purposes.
             </p>
             <p>
-                <h4>Cookies and Personal Information</h4>
+                <H2>Cookies and Personal Information</H2>
                 FNCB, Inc. does not use cookies to save personal information, user names, passwords, credit card
                 numbers, or other highly confidential information.
             </p>
             <p>
-                <h4>How do we use the information we collect?</h4>
+                <H2>How do we use the information we collect?</H2>
                 Any personally identifiable information you share with us by submitting an inquiry, request for
                 information or payment is maintained and accessible by FNCB, Inc. management and authorized personnel.
                 We may use the information to attempt to collect a debt.
             </p>
             <p>
-                <h4>Payments</h4>
+                <H2>Payments</H2>
                 By submitting a payment, you are giving FNCB, Inc. and our employee’s permission to contact you at the
                 telephone number provided (landline or cellular) and at the mailing address provided, apart from of any
                 registration with state or national do not call lists associated with that telephone number. Contact
@@ -207,7 +207,7 @@
                 Inc. website may not function properly.
             </p>
             <p>
-                <h4>Who has access to the personal information collected on FNCB, Inc. website? </h4>
+                <H2>Who has access to the personal information collected on FNCB, Inc. website? </H2>
                 The information collected by our site is only accessible by members of our management team. We do not
                 sell, rent or lease mailing lists of our customers or data to any non-affiliate third parties. </p><p>
                 You acknowledge and accept, by providing your cellular telephone number because of a debt inquiry,
@@ -218,14 +218,14 @@
                 management. FNCB, Inc. does not store information outside of the United States.
             </p>
             <p>
-                <h4>Privacy Policy Updates</h4>
+                <H2>Privacy Policy Updates</H2>
                 Changes in rules, regulations, laws, and business procedures may make it necessary to amend our Privacy
                 Policy. If this occurs, FNCB, Inc. will post the new policy on our Web site. Once posted, the new policy
                 will go into effect and will replace any previously stated policy. Please note any changes in the laws,
                 regulations addressing our Privacy Policy are not retroactively applied.
             </p>
             <p>
-                <h4>How to Contact FNCB, Inc.</h4>
+                <H2>How to Contact FNCB, Inc.</H2>
                 If you have any questions regarding our Privacy Policy, here is how to contact us. </p><p>
                 <b>Toll Free Number:</b> <a href="tel:800-824-6191">(800) 824-6191</a><br>
                 Monday-Friday, 6:00 am-5:00 pm (Pacific Time, excluding holidays)<br>
@@ -269,7 +269,7 @@
                 Any information obtained will be used for that purpose.</p><p>
                 This communication is from a debt collector.
             </p>
-            <h4>CALIFORNIA RESIDENTS: PRIVACY POLICY NOTICE</h4>
+            <H2>CALIFORNIA RESIDENTS: PRIVACY POLICY NOTICE</H2>
             <p>
                 This Privacy Policy Notice is intended for California residents pursuant to the California Consumer
                 Privacy Act of 2018 (“CCPA”), and supplements the information contained in the above Privacy Policy. Any
@@ -277,7 +277,7 @@
                 as used in this Privacy Policy Notice.</p><p>
             </p>
             <p>
-                <h4>1. Information We Collect About You</h4>
+                <H2>1. Information We Collect About You</H2>
                 We may collect and use personal information that identifies, relates to, describes, is reasonably
                 capable of being associated with, or could reasonably be directly or indirectly linked, with a consumer,
                 device, or household (“personal information”).</p><p>
@@ -301,7 +301,7 @@
                 service providers.
             </p>
             <p>
-                <h4>2. How Your Personal Information is Collected</h4>
+                <H2>2. How Your Personal Information is Collected</H2>
                 We collect most of this personal information from sellers of accounts receivable or from you or your
                 authorized representative by telephone or written communications. However, we may
                 also collect information:
@@ -312,7 +312,7 @@
                 </ul>
             </p>
             <p>
-                <h4>3. Why We Use or Disclose Your Personal Information</h4>
+                <H2>3. Why We Use or Disclose Your Personal Information</H2>
                 We regularly use or disclose personal information for one or more of the following business purposes:
                 <ul>
                     <li>Fulfill the reason you provided the information. For example, if you share your personal
@@ -348,7 +348,7 @@
                 sell your personal information under the CCPA.
             </p>
             <p>
-                <h4>4. Verifiable Consumer Requests for Information</h4>
+                <H2>4. Verifiable Consumer Requests for Information</H2>
                 Upon verification of identity, California residents may in some cases request that a business:
                 <ul>
                     <li>Disclose the categories of personal information the business collected about the consumer;</li>
@@ -380,7 +380,7 @@
                         such person’s behalf; or</li>
                     <li>Provide the requested information disclosure if a CCPA or applicable exception applies.</li>
                 </ul>
-                <h4>5. Right to Request Deletion of Personal Information</h4>
+                <H2>5. Right to Request Deletion of Personal Information</H2>
                 Upon verification of identity, California residents may in some cases request that we delete personal
                 information about you that we collected from you and retained, subject to certain exceptions.
                 We may deny your deletion request if we are acting in the role of a service provider to another business
@@ -412,7 +412,7 @@
                 emailing us at ccparequest@fncbinc.com / or calling us at (800) 824-6191
             </p>
             <p>
-                <h4>6. Verifying Your Identity If You Submit CCPA Requests</h4>
+                <H2>6. Verifying Your Identity If You Submit CCPA Requests</H2>
                 If you choose to contact us directly via the designated methods described above to exercise your CCPA
                 rights, you will need to:
                 <ul>

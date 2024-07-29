@@ -22,15 +22,15 @@
             <div class="row gx-0">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="message-first">
-                        <h2>Don’t let your past<br>define your future.</h2>
+                        <p style="font-size:2.0em; font-weight:bold; color:#555">Don’t let your past<br>define your future.</p>
                         <p>We are a nationally licensed full service accounts receivable management firm. Helping consumers resolve debts for over 35 years.</p>
                     </div>
                     <div class="message-second">
-                        <h3>First National Collection Bureau, Inc. aka FNCBNV</h3>
+                        <p style="font-size:1.5em; font-weight:bold; color:#555">First National Collection Bureau, Inc. aka FNCBNV</p>
                         <p> Our success depends on you. Compassionate recovery services provided with the highest level of compliance and data security.</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8 hero-image" title="First National Collections Bureau, Inc. FNCBNV"></div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 hero-image" role="img" title="First National Collections Bureau, Inc. FNCBNV"></div>
 
             </div>
         </div>

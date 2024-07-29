@@ -19,13 +19,13 @@
             <p>This communication is from a debt collector. This is an attempt to collect a debt and any information
                 obtained will be used for that purpose.</p>
             <center>
-                <h2>State Disclosure Statements</h2>
-                First National Collection Bureau, Inc. (FNCB, Inc.)
-                <h4>FNCB, Inc. Disclosures – Revised September 2, 2021</h4>
+                <h1>State Disclosure Statements</h1>
+                First National Collection Bureau, Inc. (FNCB, Inc.)<br>
+                FNCB, Inc. Disclosures – Revised July 29, 2024
             </center>
 
             <p>
-                <h4>FOR CALIFORNIA RESIDENTS</h4>
+                <H2>FOR CALIFORNIA RESIDENTS</H2>
                 The state Rosenthal Fair Debt Collection Practices Act and the federal Fair Debt Collection Practices
                 Act require that, except under unusual circumstances, collectors may not contact you before 8:00 a.m. or
                 after 9:00 p.m. They may not harass you by using threats of violence or arrest or by using obscene
@@ -56,7 +56,7 @@
                 First National Collection Bureau, Inc CA License # 10777-99
 
             </p>
-            <h4>FOR COLORADO RESIDENTS</h4>
+            <H2>FOR COLORADO RESIDENTS</H2>
             <p>
                 FOR INFORMATION ABOUT THE COLORADO FAIR DEBT COLLECTION PRACTICES ACT, SEE
                 <a target="_new"
@@ -73,7 +73,7 @@
                 involves, or that may reasonably be expected to involve, a principal amount that exceeds the national 
                 conforming loan limit value for a one-unit property as determined by the federal housing finance authority.
             </p>
-            <h4>FOR DISTRICT OF COLOMBIA RESIDENTS</h4>
+            <H2>FOR DISTRICT OF COLOMBIA RESIDENTS</H2>
             <p>
                 You have the right to request all of the following concerning your debt:
                 <ol>
@@ -98,12 +98,12 @@
                 <a href="tel:800-824-6191">(800) 824-6191</a>
             </p>
             <p>
-                <h4>FOR MINNESOTA RESIDENTS</h4>
+                <H2>FOR MINNESOTA RESIDENTS</H2>
 
                 This Collection Agency is licensed by the Minnesota Department of Commerce.
             </p>
             <p>
-                <h4>FOR NEW YORK RESIDENTS</h4>
+                <H2>FOR NEW YORK RESIDENTS</H2>
                 Debt collectors, in accordance with the Fair Debt Collection Practices Act, 15 U.S.C. § 1692 et seq.,
                 are prohibited from engaging in abusive, deceptive, and unfair debt collection efforts, including but
                 not limited to: (i) the use or threat of violence; (ii) the use of obscene or profane language; (iii)
@@ -137,11 +137,11 @@
                 to us at 50 W Liberty St., Ste 250, Reno, NV 89501 or email your request 
                 to us at <a href='mailto:Requests@fncbinc.com'>Requests@fncbinc.com</a></p>
             <p>
-                <h4>FOR NORTH CAROLINA RESIDENTS</h4>
+                <H2>FOR NORTH CAROLINA RESIDENTS</H2>
                 North Carolina Permit Number:4105
             </p>
             <p>
-                <h4>FOR TENNESSEE RESIDENTS</h4>
+                <H2>FOR TENNESSEE RESIDENTS</H2>
                 This collection agency is licensed by the Collection Service Board of the Department of Commerce and
                 Insurance.
             </p>
