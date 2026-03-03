@@ -29,7 +29,7 @@
                                 <p style='font-size:0.80em;'>NMLS #:934310
                                 <br>NV Collection Agency License #: CAD11256
                                 <br>Compliance Manager NMLS #:941563
-                                <br>Compliance Manager Certificate Identification #: CM100001
+                                <br>Compliance Manager Certificate ID #: CM100001
                                 <br>Secondary Compliance Manager NMLS #:641620
                                 <br>Secondary Compliance Manager Certificate ID #: CM11993</p>
                         </div>
