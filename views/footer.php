@@ -26,11 +26,11 @@
                         <div class="col-md-6 col-lg-5 fncb">
                             <p>This communication is from a debt collector.<br>This is an attempt to collect a debt and any
                                 information<br>obtained will be used for that purpose.</p>
-                                <p style='font-size:0.80em;'>NMLS #:934310
+                                <p style='font-size:0.80em;'>NMLS #: 934310
                                 <br>NV Collection Agency License #: CAD11256
-                                <br>Compliance Manager NMLS #:941563
+                                <br>Compliance Manager NMLS #: 941563
                                 <br>Compliance Manager Certificate ID #: CM100001
-                                <br>Secondary Compliance Manager NMLS #:641620
+                                <br>Secondary Compliance Manager NMLS #: 641620
                                 <br>Secondary Compliance Manager Certificate ID #: CM11993</p>
                         </div>
 
