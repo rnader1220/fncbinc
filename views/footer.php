@@ -33,11 +33,11 @@
                         <div class="col-md-6 col-lg-5 fncb">
                             <p>This communication is from a debt collector.<br>This is an attempt to collect a debt and any
                                 information<br>obtained will be used for that purpose.</p>
-                                <p style='font-size:0.80em;'>NMLS #:934310
+                                <p style='font-size:0.80em;'>NMLS #: 934310
                                 <br>NV Collection Agency License #: CAD11256
-                                <br>Compliance Manager NMLS #:941563
+                                <br>Compliance Manager NMLS #: 941563
                                 <br>Compliance Manager Certificate ID #: CM100001
-                                <br>Secondary Compliance Manager NMLS #:641620
+                                <br>Secondary Compliance Manager NMLS #: 641620
                                 <br>Secondary Compliance Manager Certificate ID #: CM11993</p>
                         </div>
 
@@ -64,6 +64,7 @@
             <div class="row">
                 <div class="col-lg-10">
                     <ul>
+                        <li><div id="google_translate_element"></div></li>
                         <li><a href="/">Home</a></li>
                         <!-- need payment portal url-->
                         <li><a target='_blank' href="<?=$server_link ?>"  aria-label="Payment Portal - new tab">Payment Portal</a></li>
@@ -75,7 +76,17 @@
                         <li><a href="/legal-disclosure.php">State Disclosures</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+            </div>
+            <div class="row">
+                <div class="col-lg-10" style="font-size: 0.80em; color:grey">
+                    Language translations are provided via automated translation service. Accuracy is not guaranteed.
+                </div>
+            </div>
+            <div class="row">
+
+
+<!-- Google Translate Widget -->
+                <div class="col-lg-10">
                     <ul class="socials">
                         <li>
                             <!-- a target='_blank' href="https://www.linkedin.com/company/fncb-financial-services-llc-" target="_blank"><i class="icon linkedin"></i></a -->
