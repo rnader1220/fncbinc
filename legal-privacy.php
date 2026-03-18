@@ -228,7 +228,7 @@
                 <H2>How to Contact FNCB, Inc.</H2>
                 If you have any questions regarding our Privacy Policy, here is how to contact us. </p><p>
                 <b>Toll Free Number:</b> <a href="tel:800-824-6191">(800) 824-6191</a><br>
-                Monday-Friday, 6:00 am-5:00 pm (Pacific Time, excluding holidays)<br>
+                Monday-Friday, 6:00 am-3:00 pm (Pacific Time, excluding holidays)<br>
                 <b>Mailing Address:</b><br>
                 First National Collection Bureau, Inc.<br>
                 50 West Liberty Street<br>Suite 250<br>

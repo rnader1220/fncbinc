@@ -4,14 +4,21 @@
             <div class="col-lg-12">
                 <div class="company-logos ">
                     <div class="row gx-0">
-
+                        <div class="col-3">
+                            <div class="company d-flex align-items-center"><a class="bbb"
+                                href="https://www.bbb.org/us/nv/reno/profile/collections-agencies/first-national-collection-bureau-inc-1166-103653/#sealclick" 
+                                target="_blank" rel="nofollow"> BBB Business Review
+                                </a>
+                            </div>
+                        </div>
                         <div class="offset-3 col-3">
                             <div class="company d-flex align-items-center"><span class="aca">ACA International</span>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="company d-flex align-items-center"><a target='_blank'  aria-label="RMAi Member - new tab"
-                                    href="https://rmaintl.org/consumers/" class="rmai">RMAi Member</a></div>
+                                    href="https://rmaintl.org/consumers/" class="rmai">RMAi Member</a>
+                            </div>
                         </div>
                     </div>
                 </div>

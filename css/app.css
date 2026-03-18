@@ -227,17 +227,19 @@ ul li {
 }
 
 .company-logos .company a.bbb {
-  width: 103px;
-  height: 50px;
+  width: 190px;
+  height: 94px;
+  
   background: url("https://s3.us-central-1.wasabisys.com/di-web-image/fncb/bbb.png");
   background-size: cover;
 }
 
-.company-logos .company a.aca {
-  width: 64px;
-  height: 80px;
+.company-logos .company span.aca {
+  width: 96px;
+  height: 120px;
   background: url("https://s3.us-central-1.wasabisys.com/di-web-image/fncb/aca.svg");
   background-size: cover;
+  text-indent: -99999px;
 }
 
 .company-logos .company a.nmls {
@@ -709,7 +711,7 @@ header ul li a:hover {
   padding-right: 100px;
 }
 
-.footer .info a.logo {
+.footer .info span.logo {
   width: 276px;
   height: 133px; 
   display: block;

@@ -35,7 +35,7 @@
                     <p>
                         <b>Hours of Operation:</b><br>
                         Monday through Friday<br>
-                        6:00 am to 5:00 pm PST (hours may vary)<br>
+                        6:00 am to 3:00 pm PST (hours may vary)<br>
                     </p>
                     <p>
                         <b>Address:</b><br>
